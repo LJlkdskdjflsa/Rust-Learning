@@ -1,0 +1,54 @@
+# Rust compiled files
+*.exe
+*.pdb
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Debug artifacts
+*.dSYM/
+*.dSYM
+
+# Executables without extension (Unix)
+C001_hello_world/main
+C002_*/main
+C003_*/main
+C004_*/main
+C005_*/main
+C006_*/main
+C007_*/main
+C008_*/main
+C009_*/main
+C0*/main
+C1*/main
+C2*/main
+
+# Cargo (if you use it later)
+target/
+Cargo.lock
+**/*.rs.bk
+
+# IDE specific files
+.vscode/settings.json
+.vscode/*.log
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build directories
+build/
+dist/
+out/
